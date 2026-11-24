@@ -265,3 +265,67 @@ st.markdown(
 )
 
 st.caption("MarketLens Nigeria | Build54 Unmapped")
+
+
+# AI Market Insights
+st.divider()
+st.header("AI Market Insights")
+
+st.caption(
+    "Historical food-price explanations generated "
+    "using the Adaption API and manually validated."
+)
+
+adapted_path = (
+    Path(__file__).resolve().parent
+    / "marketlens_outputs"
+    / "marketlens_adapted_validated.csv"
+)
+
+if adapted_path.exists():
+    ai_df = pd.read_csv(adapted_path)
+
+    st.metric("Validated AI explanations", len(ai_df))
+
+    st.warning(
+        "These explanations describe historical "
+        "observations, not current market prices."
+    )
+
+    selected = st.selectbox(
+        "Select a historical observation",
+        options=list(range(len(ai_df))),
+        format_func=lambda i: f"Observation {i + 1}"
+    )
+
+    record = ai_df.iloc[selected]
+
+    st.subheader("Original market data")
+
+    context = record.get(
+        "market_context",
+        record.get("original_context", "")
+    )
+
+    st.text(str(context))
+
+    st.subheader("AI-generated explanation")
+
+    st.info(record["enhanced_completion"])
+
+    st.success("Manually validated against source context")
+
+    st.caption(
+        "Source: WFP Nigeria Food Prices | "
+        "Adapted using Adaption API"
+    )
+
+    st.markdown(
+        "[Explore the adapted dataset on Hugging Face]"
+        "(https://huggingface.co/datasets/"
+        "DominionofWeb3/marketlens-nigeria-food-prices)"
+    )
+
+else:
+    st.error("Adapted dataset could not be loaded.")
+
