@@ -1,0 +1,131 @@
+enhanced_prompt,enhanced_completion,market_context,original_context,validation_status,validation_method,source_dataset
+,"On June 15, 2016, the historical retail price for local Rice in the Budum market of Borno State was recorded at 309.26 NGN/kg. This figure represents past data and is not a current market price.","Commodity: Rice (local)
+State: Borno
+Market: Budum
+Observation date: 2016-06-15T00:00:00
+Original retail price: 835.00 NGN for 2.7 KG
+Normalized retail price: 309.26 NGN/kg
+This is historical data, not a current price.","Commodity: Rice (local)
+State: Borno
+Market: Budum
+Observation date: 2016-06-15T00:00:00
+Original retail price: 835.00 NGN for 2.7 KG
+Normalized retail price: 309.26 NGN/kg
+This is historical data, not a current price.",reviewed_pass,manual_context_comparison,WFP Nigeria Food Prices
+,"On June 15, 2017, the historical retail price for Yam in the Maiduguri market of Borno state was recorded. The normalized retail price was 274.00 NGN/kg. Please note that this is historical data, not a current market price.","Commodity: Yam
+State: Borno
+Market: Maiduguri
+Observation date: 2017-06-15T00:00:00
+Original retail price: 685.00 NGN for 2.5 KG
+Normalized retail price: 274.00 NGN/kg
+This is historical data, not a current price.","Commodity: Yam
+State: Borno
+Market: Maiduguri
+Observation date: 2017-06-15T00:00:00
+Original retail price: 685.00 NGN for 2.5 KG
+Normalized retail price: 274.00 NGN/kg
+This is historical data, not a current price.",reviewed_pass,manual_context_comparison,WFP Nigeria Food Prices
+,"On December 15, 2016, the historical retail price for Yam in the Jakusko market of Yobe state was recorded at 118.40 NGN/kg. Please note that this is historical data, not a current market price.","Commodity: Yam
+State: Yobe
+Market: Jakusko
+Observation date: 2016-12-15T00:00:00
+Original retail price: 296.00 NGN for 2.5 KG
+Normalized retail price: 118.40 NGN/kg
+This is historical data, not a current price.","Commodity: Yam
+State: Yobe
+Market: Jakusko
+Observation date: 2016-12-15T00:00:00
+Original retail price: 296.00 NGN for 2.5 KG
+Normalized retail price: 118.40 NGN/kg
+This is historical data, not a current price.",reviewed_pass,manual_context_comparison,WFP Nigeria Food Prices
+,"On November 15, 2017, the historical retail price for red beans in the Monday market of Borno state was recorded. The normalized retail price was 346.00 NGN/kg. Please note that this is historical data, not a current market price.","Commodity: Beans (red)
+State: Borno
+Market: Monday
+Observation date: 2017-11-15T00:00:00
+Original retail price: 865.00 NGN for 2.5 KG
+Normalized retail price: 346.00 NGN/kg
+This is historical data, not a current price.","Commodity: Beans (red)
+State: Borno
+Market: Monday
+Observation date: 2017-11-15T00:00:00
+Original retail price: 865.00 NGN for 2.5 KG
+Normalized retail price: 346.00 NGN/kg
+This is historical data, not a current price.",reviewed_pass,manual_context_comparison,WFP Nigeria Food Prices
+,"On August 15, 2017, the historical retail price for Yam in the Jakusko market of Yobe state was recorded at 201.60 NGN/kg. Please note that this is historical data, not a current market price.","Commodity: Yam
+State: Yobe
+Market: Jakusko
+Observation date: 2017-08-15T00:00:00
+Original retail price: 504.00 NGN for 2.5 KG
+Normalized retail price: 201.60 NGN/kg
+This is historical data, not a current price.","Commodity: Yam
+State: Yobe
+Market: Jakusko
+Observation date: 2017-08-15T00:00:00
+Original retail price: 504.00 NGN for 2.5 KG
+Normalized retail price: 201.60 NGN/kg
+This is historical data, not a current price.",reviewed_pass,manual_context_comparison,WFP Nigeria Food Prices
+,"On January 15, 2018, the historical retail price for Rice (local) at the Monday market in Borno state was recorded as 214.44 NGN/kg. Please note that this is historical data, not a current market price.","Commodity: Rice (local)
+State: Borno
+Market: Monday
+Observation date: 2018-01-15T00:00:00
+Original retail price: 579.00 NGN for 2.7 KG
+Normalized retail price: 214.44 NGN/kg
+This is historical data, not a current price.","Commodity: Rice (local)
+State: Borno
+Market: Monday
+Observation date: 2018-01-15T00:00:00
+Original retail price: 579.00 NGN for 2.7 KG
+Normalized retail price: 214.44 NGN/kg
+This is historical data, not a current price.",reviewed_pass,manual_context_comparison,WFP Nigeria Food Prices
+,"On May 15, 2017, the historical retail price for red beans in the Monday market of Borno state was recorded at 340.80 NGN/kg. Please note that this is historical data, not a current market price.","Commodity: Beans (red)
+State: Borno
+Market: Monday
+Observation date: 2017-05-15T00:00:00
+Original retail price: 852.00 NGN for 2.5 KG
+Normalized retail price: 340.80 NGN/kg
+This is historical data, not a current price.","Commodity: Beans (red)
+State: Borno
+Market: Monday
+Observation date: 2017-05-15T00:00:00
+Original retail price: 852.00 NGN for 2.5 KG
+Normalized retail price: 340.80 NGN/kg
+This is historical data, not a current price.",reviewed_pass,manual_context_comparison,WFP Nigeria Food Prices
+,"On July 15, 2016, the historical retail price for Yam in the Bullunkutu market of Borno state was recorded. The normalized retail price was 125.20 NGN/kg. Please note that this is historical data, not a current market price.","Commodity: Yam
+State: Borno
+Market: Bullunkutu
+Observation date: 2016-07-15T00:00:00
+Original retail price: 313.00 NGN for 2.5 KG
+Normalized retail price: 125.20 NGN/kg
+This is historical data, not a current price.","Commodity: Yam
+State: Borno
+Market: Bullunkutu
+Observation date: 2016-07-15T00:00:00
+Original retail price: 313.00 NGN for 2.5 KG
+Normalized retail price: 125.20 NGN/kg
+This is historical data, not a current price.",reviewed_pass,manual_context_comparison,WFP Nigeria Food Prices
+,"On July 15, 2017, the historical retail price for Yam in the Damaturu market of Yobe State was recorded at a normalized rate of 150.00 NGN/kg. Please note that this is historical data, not a current price.","Commodity: Yam
+State: Yobe
+Market: Damaturu
+Observation date: 2017-07-15T00:00:00
+Original retail price: 375.00 NGN for 2.5 KG
+Normalized retail price: 150.00 NGN/kg
+This is historical data, not a current price.","Commodity: Yam
+State: Yobe
+Market: Damaturu
+Observation date: 2017-07-15T00:00:00
+Original retail price: 375.00 NGN for 2.5 KG
+Normalized retail price: 150.00 NGN/kg
+This is historical data, not a current price.",reviewed_pass,manual_context_comparison,WFP Nigeria Food Prices
+,"On August 15, 2016, the historical retail price for Yam in the Bullunkutu market of Borno state was recorded at 88.40 NGN/kg. Please note that this is historical data, not a current market price.","Commodity: Yam
+State: Borno
+Market: Bullunkutu
+Observation date: 2016-08-15T00:00:00
+Original retail price: 221.00 NGN for 2.5 KG
+Normalized retail price: 88.40 NGN/kg
+This is historical data, not a current price.","Commodity: Yam
+State: Borno
+Market: Bullunkutu
+Observation date: 2016-08-15T00:00:00
+Original retail price: 221.00 NGN for 2.5 KG
+Normalized retail price: 88.40 NGN/kg
+This is historical data, not a current price.",reviewed_pass,manual_context_comparison,WFP Nigeria Food Prices
