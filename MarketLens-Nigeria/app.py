@@ -9,13 +9,23 @@ st.set_page_config(
     layout="wide"
 )
 
+
+from pathlib import Path
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv(
-        "marketlens_outputs/marketlens_adaption_input.csv"
+    base_dir = Path(__file__).resolve().parent
+
+    data_path = (
+        base_dir
+        / "marketlens_outputs"
+        / "marketlens_adaption_input.csv"
     )
+
+    df = pd.read_csv(data_path)
     df["date"] = pd.to_datetime(df["date"])
     return df
+
 
 df = load_data()
 
